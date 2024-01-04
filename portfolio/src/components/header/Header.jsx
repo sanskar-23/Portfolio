@@ -7,15 +7,13 @@ function Header() {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Sanskar Kapoor</h1>
+        <h5> Hello I 'm</h5> <h1> Sanskar Kapoor </h1>{" "}
         <h5 className="text_light">
-          Former SDE Summer Intern at Barclays India'23
+          Upcomong Software Engineer at Barclays India
         </h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">{/* <img src={ME} alt="me" /> */}</div>
-
+        <div className="me"> {/* <img src={ME} alt="me" /> */} </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>

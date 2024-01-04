@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 const HeaderSocials = () => {
   return (
@@ -12,12 +13,19 @@ const HeaderSocials = () => {
         rel="noreferrer"
       >
         <FaLinkedin />
-      </a>
+      </a>{" "}
       <a href="https://github.com/sanskar-23" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
       <a href="https://leetcode.com/Vector23/" target="_blank" rel="noreferrer">
         <SiLeetcode />
+      </a>
+      <a
+        href="https://auth.geeksforgeeks.org/user/kapoorshanskar"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <SiGeeksforgeeks />
       </a>
     </div>
   );
